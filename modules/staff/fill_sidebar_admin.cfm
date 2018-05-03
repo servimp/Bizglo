@@ -61,8 +61,8 @@
 <div>
     <ul class="w3-ul-bizglo">
     <li style="border:6px;"><i class="fa fa-money"></i>&nbsp;&nbsp;&nbsp;&nbsp; Reserved Item</li>
-    <li style="border:6px;"><i class="fa fa-random"></i>&nbsp;&nbsp;&nbsp;&nbsp; Reserved Future Item</li>
-    <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-gear"></i></span><span onclick="get_view('staff_cat','central_contents','full_central','staff_cat');">&nbsp;&nbsp;&nbsp;&nbsp; Categories</span></li>
+    <li style="border:6px;"><i class="fa fa-random"></i><span onclick="get_view('features','central_contents',0,'full_central');">&nbsp;&nbsp;&nbsp;&nbsp; Features</span></li>
+    <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-gear"></i></span><span onclick="get_view('staff_cat','central_contents',0,'full_central','staff_cat');">&nbsp;&nbsp;&nbsp;&nbsp; Categories</span></li>
     <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-star"></i></span>&nbsp;&nbsp;&nbsp;&nbsp; Reserved Future Item</li>
   </ul>
 </div>

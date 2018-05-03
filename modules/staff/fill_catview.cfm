@@ -6,7 +6,7 @@
       name="MAIN_CATEGORIES">
 </CFSTOREDPROC>
 
-<div class="w3-card w3-GRIS0 w3-round-small" id="fill_catview">
+<div class="w3-card w3-GRIS0 w3-round-small" id="fill_catview" style="padding-top: 2px;">
 <ul class="w3-ul-bizglo-3 w3-hoverable w3-panel">
 <cfoutput query="MAIN_CATEGORIES" startRow=2>
 

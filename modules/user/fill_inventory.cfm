@@ -182,9 +182,9 @@ cfloop index="iplacepop" from="1" to="#arrayLen(bizglo_places)#">
  <td>
       <div class="w3-cell-row">
 <div class="w3-cell" style="width:16%;"></div>
-  <div class="w3-cell"> <input class="w3-check" type="checkbox" checked="checked">
+  <div class="w3-cell"> <input class="w3-check" type="checkbox">
   </div>
-  <div class="w3-cell" style="width:8%;"></div>
+  <div class="w3-cell" style="width:30%;"></div>
    <div class="w3-cell"><input class="w3-inputbiz" type="input" style="width:28px;">
   </div>
   <div class="w3-cell" style="width:16%;">

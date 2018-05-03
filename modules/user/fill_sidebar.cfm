@@ -60,7 +60,8 @@
 <!--START MENU - SIDEBAR-->
 <div>
     <ul class="w3-ul-bizglo">
-    <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-tasks"></i></span><span onclick="get_view('inventory_user','central_contents','full_central');">&nbsp;&nbsp;&nbsp;&nbsp; My Inventory</span></li>
+    <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-tasks"></i></span><span onclick="get_view('inventory_user','central_contents',0,'full_central');">&nbsp;&nbsp;&nbsp;&nbsp; My Inventory</span></li>
+    <li style="border:6px;"><span style="padding-left:0px;"><i class="fa fa-cubes"></i></span><span onclick="get_view('products_user','central_contents',0,'full_central');">&nbsp;&nbsp;&nbsp; Product View</span></li>
         <li style="border:6px;"><i class="fa fa-money"></i>&nbsp;&nbsp;&nbsp;&nbsp; Payments and Sales</li>
     <li style="border:6px;"><i class="fa fa-random"></i>&nbsp;&nbsp;&nbsp;&nbsp; Post-Sale Rules</li>
     <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-gear"></i></span>&nbsp;&nbsp;&nbsp;&nbsp; Settings</li>

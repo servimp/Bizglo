@@ -5,8 +5,10 @@
 <div class="w3-col W3-AZULPRO1" style="width:52px;">
 <button class="w3-button w3-AZULPRO1 w3-xlarge w3-hide-large" onclick="w3_open()" style="padding-bottom: 8px;">&#9776;</button>
 </div>
-  <div class="w3-rest w3-container w3-AZULPRO1 w3-text-WHITE">
+  <div class="w3-rest w3-container w3-AZULPRO1 w3-text-WHITE w3-bar">
+
     <h3 style="margin-top: 9px; margin-bottom: 7px;">&nbsp;Dashboard</h3>
+  
   </div>
 </div>
 </div>
@@ -150,7 +152,6 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/4.7.2/d3.min.js"></script>
 <script src="js/d3/d3pie.min.js"></script>
 <script src="js/module.js"></script>
-<script src="js/validation.js"></script>
 <script>
 var pie = new d3pie("pieChart", {
   "header": {

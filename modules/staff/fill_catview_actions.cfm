@@ -13,4 +13,3 @@
   <p><input type="button" class="w3-button w3-AZULPAR w3-block" value="Delete" onclick="check_delete()"></p>
 
 </div>
-<script src="js/validation2.js"></script>

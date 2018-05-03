@@ -1,5 +1,4 @@
-            
-                              
+                   
                       <CFSET times_label = times + 1>  
                       <div style="margin-left: 48px;">
                       <ul class="w3-ul-bizglo-2 w3-hoverable">
