@@ -42,6 +42,7 @@
     pcatsid = arraynew();
     pastcat = 0;
     item = 0;
+
   </cfscript>
  
 <cfoutput query="products">
@@ -60,17 +61,17 @@
         <cfset catnames[5] = products.CAT5NAME>
           <cfset catnames[6] = products.CAT6NAME>
             <cfset catnames[7] = products.CAT7NAME>
-<cfif item eq 1> <!---Necessary ---->
-<cfif pastcat NOT EQUAL products.ID_CATEGORY></table></div>
-<cfset catlvl = catlvl -1>
-<cfloop index="i" from= #catlvl# to=1 step=-1>
-<cfif #pcatsid[#i#]# NOT EQUAL #catids[#i#]#></div></cfif>
-<cfif i eq 1>
-</div>
-</cfif>
-</cfloop>
+<cfif item eq 1> <!---Necessary---->
+  <cfif pastcat NOT EQUAL products.ID_CATEGORY></table></div>
+  <!-- cfif pastcat NOT EQUAL products.ID_CATEGORY></table></div> 
+  --><cfset catlvl = catlvl -1>
 
-</cfif>
+    <cfloop index="i" from= #catlvl# to=1 step=-1>
+    <cfif #pcatsid[#i#]# NOT EQUAL #catids[#i#]#></div><!-- cfif #pcatsid[#i#]# NOT EQUAL #catids[#i#]#></div> --></cfif>
+    <cfif #i# eq 1></div><!-- cfif #i# eq 1></div> --></cfif>
+    </cfloop>
+
+  </cfif>
 </cfif>
 
 <cfinclude template="products_rec_all.cfm">
@@ -79,9 +80,9 @@
     <cfloop index="i" from= #catlvl# to=1 step=-1>
       <cfset pcatsid[#i#] = catids[#i#]>
     </cfloop>
-
+<cfset item = 1>
 </cfoutput>
 </table>
 
-</div>
-</div>
+</div><!-- Penultimo </div> -->
+</div><!-- Ultimo </div> -->

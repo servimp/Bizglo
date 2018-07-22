@@ -57,6 +57,13 @@ switch(url.view){
 		stack[4] = 'user/fill_products.cfm';
 		break;
 
+	case "products_staff":	
+		stack[1] = 'modules/control_and_full.cfm';
+		stack[2] = 'staff/control_products_staff.cfm';
+		stack[3] = 'empty';
+		stack[4] = 'user/fill_products.cfm';
+		break;
+
 	case "fill_catview":	
 		stack[1] = 'modules/staff/fill_catview.cfm';
 		break;

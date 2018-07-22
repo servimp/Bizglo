@@ -23,7 +23,7 @@
 <select class="w3-select" name="option_colors" id="option_colors" required>
   <option value="" disabled selected>Select Item Color</option>
 <cfoutput query="REPRESENTATIVE" startrow=1>
-  <option value="#representative.ID#">#representative.NAME#</option>
+  <option value="#representative.ID_COLOR#">#representative.NAME#</option>
 </cfoutput>
 </select>
 
@@ -32,10 +32,12 @@
 <p>
 
 <p>
-  <input class="w3-input w3-border w3-round" name="qty" type="number" id="qty" maxlength="60" pattern="[-+]?[0-9]" required placeholder="Quantity (Required, number of units to upload)">
+  <input class="w3-input w3-border w3-round" name="qty" type="number" id="qty" maxlength="60" min="1" pattern="[-+]?[0-9]" required placeholder="Quantity (Required, number of units to upload)">
 </p>
-
-<p><input type="button" class="w3-button w3-AZULPAR w3-block" value="Continue" onclick="validform()"></p>
+<cfoutput>
+  <input type="hidden" id="item_id" value="#url.param1#">
+</cfoutput>
+<p><input type="button" class="w3-button w3-AZULPAR w3-block" value="Continue" onclick="validform(0)"></p>
 </div>
 <div id="options_confirm">
   </div>

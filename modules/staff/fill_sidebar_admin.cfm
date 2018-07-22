@@ -63,7 +63,7 @@
     <li style="border:6px;"><i class="fa fa-money"></i>&nbsp;&nbsp;&nbsp;&nbsp; Reserved Item</li>
     <li style="border:6px;"><i class="fa fa-random"></i><span onclick="get_view('features','central_contents',0,'full_central');">&nbsp;&nbsp;&nbsp;&nbsp; Features</span></li>
     <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-gear"></i></span><span onclick="get_view('staff_cat','central_contents',0,'full_central','staff_cat');">&nbsp;&nbsp;&nbsp;&nbsp; Categories</span></li>
-    <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-star"></i></span>&nbsp;&nbsp;&nbsp;&nbsp; Reserved Future Item</li>
+    <li style="border:6px;"><span style="padding-left:2px;"><i class="fa fa-star"></i></span><span onclick="get_view('products_staff','central_contents',0,'full_central');">&nbsp;&nbsp;&nbsp;&nbsp; Product View</span></li>
   </ul>
 </div>
 <!--END MENU - SIDEBAR-->

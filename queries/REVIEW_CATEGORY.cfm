@@ -9,7 +9,6 @@
   <cfprocresult name="REVIEW_PRODUCTS">
 </CFSTOREDPROC>
 
-
 <cfif #REVIEW_CATEGORY.recordcount# EQ 0>
 		<cfif #REVIEW_PRODUCTS.recordcount# EQ 0>
 		1

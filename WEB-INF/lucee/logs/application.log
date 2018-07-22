@@ -22451,3 +22451,1632 @@ Array index out of range: 0;lucee.runtime.exp.ExpressionException: Element at po
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 "
+"ERROR","http-nio-8888-exec-1","05/04/2018","09:42:46","",";request /modules/user/options_reference.cfm (C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\modules\user\options_reference.cfm) has run into a timeout (50 seconds) and has been stopped.;lucee.runtime.exp.RequestTimeoutException: request /modules/user/options_reference.cfm (C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\modules\user\options_reference.cfm) has run into a timeout (50 seconds) and has been stopped.
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:100)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:143)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:173)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2954)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3375)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3365)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3805)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2547)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:4874)
+	at lucee.runtime.db.DatasourceConnectionPool.isValid(DatasourceConnectionPool.java:258)
+	at lucee.runtime.db.DatasourceConnectionPool.getDatasourceConnection(DatasourceConnectionPool.java:119)
+	at lucee.runtime.db.DatasourceManagerImpl.getConnection(DatasourceManagerImpl.java:81)
+	at lucee.runtime.db.DatasourceManagerImpl.getConnection(DatasourceManagerImpl.java:75)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:518)
+	at modules.user.options_reference_cfm$cf.call(/modules/user/options_reference.cfm:4)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"INFO","127.0.0.1-startStop-1","05/04/2018","22:36:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/04/2018","22:36:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/04/2018","22:36:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","http-nio-8888-exec-7","05/05/2018","09:39:30","OSGi","add bundle:C:\lucee\tomcat\lucee-server\bundles\com.mysql.jdbc-5.1.38.jar"
+"INFO","http-nio-8888-exec-7","05/05/2018","09:39:30","OSGi","start bundle:com.mysql.jdbc:5.1.38"
+"INFO","127.0.0.1-startStop-1","05/08/2018","09:41:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/08/2018","09:41:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/08/2018","09:41:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/10/2018","08:00:39","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/10/2018","08:00:39","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/10/2018","08:00:39","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/11/2018","08:42:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/11/2018","08:42:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/11/2018","08:42:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/11/2018","15:30:38","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/11/2018","15:30:38","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/11/2018","15:30:38","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/16/2018","20:53:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/16/2018","20:53:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/16/2018","20:53:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/16/2018","22:34:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/16/2018","22:34:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/16/2018","22:34:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/17/2018","03:09:19","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/17/2018","03:09:19","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/17/2018","03:09:19","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/17/2018","17:17:00","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/17/2018","17:17:00","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/17/2018","17:17:00","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/18/2018","18:45:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/18/2018","18:45:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/18/2018","18:45:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/20/2018","08:06:13","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/20/2018","08:06:13","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/20/2018","08:06:13","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","06:47:05","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","06:47:05","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","06:47:05","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","17:13:54","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","17:13:54","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","17:13:54","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","22:01:12","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","22:01:12","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/21/2018","22:01:12","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/23/2018","17:16:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/23/2018","17:16:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/23/2018","17:16:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/23/2018","19:45:05","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/23/2018","19:45:05","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/23/2018","19:45:05","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/24/2018","07:07:25","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/24/2018","07:07:25","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/24/2018","07:07:25","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/24/2018","21:32:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/24/2018","21:32:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/24/2018","21:32:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/27/2018","18:00:08","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/27/2018","18:00:08","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/27/2018","18:00:08","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/28/2018","07:31:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/28/2018","07:31:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/28/2018","07:31:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/29/2018","07:53:02","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/29/2018","07:53:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/29/2018","07:53:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/30/2018","09:04:04","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/30/2018","09:04:04","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/30/2018","09:04:04","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/31/2018","09:45:49","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/31/2018","09:45:49","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/31/2018","09:45:49","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","05/31/2018","23:37:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","05/31/2018","23:37:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","05/31/2018","23:37:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","07:48:27","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","07:48:27","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","07:48:27","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","14:36:22","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","14:36:22","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","14:36:22","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","23:32:50","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","23:32:50","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/01/2018","23:32:50","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","09:52:32","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","09:52:32","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","09:52:32","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","19:48:29","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","19:48:29","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","19:48:29","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","21:13:48","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","21:13:48","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/02/2018","21:13:49","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/03/2018","17:29:29","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/03/2018","17:29:29","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/03/2018","17:29:29","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/04/2018","08:35:47","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/04/2018","08:35:47","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/04/2018","08:35:47","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","07:59:20","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","07:59:20","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","07:59:20","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","09:59:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","09:59:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","09:59:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","14:33:50","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","14:33:50","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/05/2018","14:33:50","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/06/2018","14:06:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/06/2018","14:06:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/06/2018","14:06:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/08/2018","07:56:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/08/2018","07:56:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/08/2018","07:56:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/08/2018","12:49:54","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/08/2018","12:49:54","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/08/2018","12:49:54","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/09/2018","09:54:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/09/2018","09:54:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/09/2018","09:54:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/09/2018","09:56:45","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/09/2018","09:56:45","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/09/2018","09:56:45","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/11/2018","12:39:00","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/11/2018","12:39:00","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/11/2018","12:39:00","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:10","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:10","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [java.net.URLClassLoader@3af49f1c]"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [lucee.commons.io.res.util.ResourceClassLoader@53afd802]"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","looking for tools.jar"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","couldn't find tools.jar at: C:\lucee\jdk\jre\lib\tools.jar"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","tools.jar used:C:\lucee\jdk\lib\tools.jar"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","loaded VirtualMachine class:com.sun.tools.attach.VirtualMachine"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","try to load agent (path:C:\lucee\tomcat\lucee-server\context\lucee-external-agent.jar)"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","pid:1568"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","http-nio-8888-exec-4","06/11/2018","17:59:11","Instrumentation","ExternalAgent does contain a Instrumentation instance"
+"INFO","http-nio-8888-exec-2","06/11/2018","17:59:15","OSGi","add bundle:C:\lucee\tomcat\lucee-server\bundles\com.mysql.jdbc-5.1.38.jar"
+"INFO","http-nio-8888-exec-2","06/11/2018","17:59:15","OSGi","start bundle:com.mysql.jdbc:5.1.38"
+"INFO","127.0.0.1-startStop-1","06/13/2018","06:06:19","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/13/2018","06:06:19","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/13/2018","06:06:19","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/13/2018","11:44:30","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/13/2018","11:44:30","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/13/2018","11:44:30","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/14/2018","08:54:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/14/2018","08:54:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/14/2018","08:54:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/15/2018","13:41:11","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/15/2018","13:41:11","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/15/2018","13:41:11","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/16/2018","10:14:32","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/16/2018","10:14:32","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/16/2018","10:14:32","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/17/2018","09:09:07","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/17/2018","09:09:07","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/17/2018","09:09:07","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/17/2018","22:42:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/17/2018","22:42:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/17/2018","22:42:52","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/18/2018","16:06:45","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/18/2018","16:06:45","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/18/2018","16:06:45","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/18/2018","23:25:16","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/18/2018","23:25:16","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/18/2018","23:25:16","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/19/2018","13:15:04","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/19/2018","13:15:04","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/19/2018","13:15:04","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/20/2018","10:37:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/20/2018","10:37:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/20/2018","10:37:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/21/2018","16:53:39","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/21/2018","16:53:39","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/21/2018","16:53:39","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/25/2018","09:43:56","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/25/2018","09:43:56","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/25/2018","09:43:56","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","http-nio-8888-exec-10","06/25/2018","12:11:55","OSGi","add bundle:C:\lucee\tomcat\lucee-server\bundles\com.mysql.jdbc-5.1.38.jar"
+"INFO","http-nio-8888-exec-10","06/25/2018","12:11:55","OSGi","start bundle:com.mysql.jdbc:5.1.38"
+"INFO","127.0.0.1-startStop-1","06/26/2018","15:20:15","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/26/2018","15:20:15","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/26/2018","15:20:15","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/27/2018","14:02:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/27/2018","14:02:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/27/2018","14:02:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/28/2018","08:43:41","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/28/2018","08:43:41","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/28/2018","08:43:41","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","06/30/2018","09:43:46","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","06/30/2018","09:43:46","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","06/30/2018","09:43:46","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"ERROR","http-nio-8888-exec-4","06/30/2018","14:25:07","",";Page /index.cfm [C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\index.cfm] not found;lucee.runtime.exp.MissingIncludeException: Page /index.cfm [C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\index.cfm] not found
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:949)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:900)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"INFO","127.0.0.1-startStop-1","07/01/2018","23:39:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/01/2018","23:39:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/01/2018","23:39:03","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/02/2018","21:39:11","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/02/2018","21:39:11","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/02/2018","21:39:11","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/04/2018","17:01:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/04/2018","17:01:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/04/2018","17:01:24","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/05/2018","22:34:47","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/05/2018","22:34:47","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/05/2018","22:34:47","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/06/2018","09:19:35","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/06/2018","09:19:35","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/06/2018","09:19:35","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/08/2018","09:41:40","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/08/2018","09:41:40","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/08/2018","09:41:40","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"ERROR","http-nio-8888-exec-1","07/08/2018","18:05:06","",";Page /index.cfm [C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\index.cfm] not found;lucee.runtime.exp.MissingIncludeException: Page /index.cfm [C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\index.cfm] not found
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:949)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:900)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:05:48","OSGi","add bundle:C:\lucee\tomcat\lucee-server\bundles\com.mysql.jdbc-5.1.38.jar"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:05:48","OSGi","start bundle:com.mysql.jdbc:5.1.38"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:01","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:01","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [java.net.URLClassLoader@681a9515]"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:01","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [lucee.commons.io.res.util.ResourceClassLoader@447740b3]"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","looking for tools.jar"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","couldn't find tools.jar at: C:\lucee\jdk\jre\lib\tools.jar"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","tools.jar used:C:\lucee\jdk\lib\tools.jar"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","loaded VirtualMachine class:com.sun.tools.attach.VirtualMachine"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","try to load agent (path:C:\lucee\tomcat\lucee-server\context\lucee-external-agent.jar)"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","pid:1424"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","http-nio-8888-exec-9","07/08/2018","18:06:02","Instrumentation","ExternalAgent does contain a Instrumentation instance"
+"ERROR","http-nio-8888-exec-4","07/09/2018","13:04:44","",";Page /controller.cfm [C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\controller.cfm] not found;lucee.runtime.exp.MissingIncludeException: Page /controller.cfm [C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\controller.cfm] not found
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:949)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:900)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-3","07/10/2018","14:26:10","",";lucee.runtime.exp.DatabaseException
+PROCEDURE bizglo.ADD_ITEMS_USERS does not exist;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:8)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-9","07/10/2018","14:29:17","",";lucee.runtime.exp.DatabaseException
+PROCEDURE bizglo.ADD_ITEMS_USERS does not exist;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:8)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-10","07/10/2018","18:55:18","",";lucee.runtime.exp.DatabaseException
+Incorrect number of arguments for PROCEDURE bizglo.ADD_ITEMS_USERS; expected 0, got 6;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:8)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-3","07/11/2018","13:52:52","",";lucee.runtime.exp.DatabaseException
+Data truncation: Out of range value for column 'ITEMID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-9","07/11/2018","13:56:14","",";lucee.runtime.exp.DatabaseException
+Data truncation: Out of range value for column 'ITEMID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-6","07/11/2018","13:58:48","",";lucee.runtime.exp.DatabaseException
+Data truncation: Out of range value for column 'ITEMID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-5","07/11/2018","13:59:22","",";lucee.runtime.exp.DatabaseException
+Data truncation: Out of range value for column 'ITEMID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-7","07/11/2018","13:59:59","",";lucee.runtime.exp.DatabaseException
+Incorrect number of arguments for PROCEDURE bizglo.ADD_ITEMS_USERS; expected 2, got 1;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-2","07/11/2018","14:00:16","",";lucee.runtime.exp.DatabaseException
+Data truncation: Out of range value for column 'ITEMID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-3","07/11/2018","14:00:48","",";lucee.runtime.exp.DatabaseException
+Incorrect number of arguments for PROCEDURE bizglo.ADD_ITEMS_USERS; expected 1, got 2;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:939)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-9","07/11/2018","14:02:16","",";lucee.runtime.exp.DatabaseException
+Data truncation: Out of range value for column 'ITEMID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-4","07/11/2018","14:04:46","",";lucee.runtime.exp.DatabaseException
+Data truncation: Out of range value for column 'ITEM_ID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-1","07/11/2018","14:11:22","",";lucee.runtime.exp.DatabaseException
+Data truncation: Data too long for column 'ITEM_ID' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-5","07/11/2018","14:13:19","",";lucee.runtime.exp.DatabaseException
+Data truncation: Data too long for column 'ITEMIDREP' at row 4;lucee.runtime.exp.DatabaseException: 
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3876)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:9)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-3","07/11/2018","14:22:41","",";lucee.runtime.exp.DatabaseException
+Column 'ID_ITEM' cannot be null;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:932)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:10)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-8","07/11/2018","14:23:25","",";lucee.runtime.exp.DatabaseException
+Column 'ID_ITEM' cannot be null;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:932)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:10)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-6","07/11/2018","14:28:11","",";lucee.runtime.exp.DatabaseException
+Column 'ID_ITEM' cannot be null;lucee.runtime.exp.DatabaseException: 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:404)
+	at com.mysql.jdbc.Util.getInstance(Util.java:387)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:932)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3878)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3814)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2478)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2625)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2551)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1861)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1192)
+	at com.mysql.jdbc.CallableStatement.execute(CallableStatement.java:823)
+	at lucee.runtime.tag.StoredProc.doEndTag(StoredProc.java:597)
+	at queries.new_items_user_cfm$cf.call(/queries/NEW_ITEMS_USER.cfm:8)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-1","07/12/2018","12:37:54","",";Start and End Tag has not the same Name [cfif-cfloop];lucee.runtime.exp.TemplateException: Start and End Tag has not the same Name [cfif-cfloop]
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:742)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:365)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:687)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:365)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:687)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:365)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:687)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:365)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:687)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:365)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:687)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:365)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.tag(CFMLTransformer.java:687)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:365)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.body(CFMLTransformer.java:373)
+	at lucee.transformer.cfml.tag.CFMLTransformer.transform(CFMLTransformer.java:305)
+	at lucee.transformer.cfml.tag.CFMLTransformer.transform(CFMLTransformer.java:150)
+	at lucee.runtime.compiler.CFMLCompilerImpl._compile(CFMLCompilerImpl.java:126)
+	at lucee.runtime.compiler.CFMLCompilerImpl.compile(CFMLCompilerImpl.java:74)
+	at lucee.runtime.PageSourceImpl._compile(PageSourceImpl.java:401)
+	at lucee.runtime.PageSourceImpl.compile(PageSourceImpl.java:369)
+	at lucee.runtime.PageSourceImpl.loadPhysical(PageSourceImpl.java:310)
+	at lucee.runtime.PageSourceImpl.loadPageThrowTemplateException(PageSourceImpl.java:219)
+	at lucee.runtime.PageSourceImpl.loadPage(PageSourceImpl.java:946)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:900)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at modules.control_and_full_cfm$cf.call(/modules/control_and_full.cfm:12)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at controller_cfm$cf.call(/controller.cfm:107)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-6","07/12/2018","15:07:43","",";Element at position [4] does not exist in list
+Array index out of range: 3;lucee.runtime.exp.ExpressionException: Element at position [4] does not exist in list
+	at lucee.runtime.type.wrap.ListAsArray.getE(ListAsArray.java:110)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:275)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:280)
+	at lucee.runtime.type.util.ArraySupport.get(ArraySupport.java:327)
+	at lucee.runtime.util.VariableUtilImpl.get(VariableUtilImpl.java:263)
+	at lucee.runtime.PageContextImpl.get(PageContextImpl.java:1467)
+	at modules.user.fill_products_cfm$cf.call(/modules/user/fill_products.cfm:70)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at modules.control_and_full_cfm$cf.call(/modules/control_and_full.cfm:12)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at controller_cfm$cf.call(/controller.cfm:107)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-4","07/12/2018","15:12:23","",";Element at position [0] does not exist in list
+-1;lucee.runtime.exp.ExpressionException: Element at position [0] does not exist in list
+	at lucee.runtime.type.wrap.ListAsArray.getE(ListAsArray.java:110)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:275)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:280)
+	at lucee.runtime.type.util.ArraySupport.get(ArraySupport.java:327)
+	at lucee.runtime.util.VariableUtilImpl.get(VariableUtilImpl.java:263)
+	at lucee.runtime.PageContextImpl.get(PageContextImpl.java:1467)
+	at modules.user.fill_products_cfm$cf.call(/modules/user/fill_products.cfm:81)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at modules.control_and_full_cfm$cf.call(/modules/control_and_full.cfm:12)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at controller_cfm$cf.call(/controller.cfm:107)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-9","07/12/2018","15:12:35","",";Element at position [1] does not exist in list;lucee.runtime.exp.ExpressionException: Element at position [1] does not exist in list
+	at lucee.runtime.type.wrap.ListAsArray.getE(ListAsArray.java:110)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:275)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:280)
+	at lucee.runtime.type.util.ArraySupport.get(ArraySupport.java:327)
+	at lucee.runtime.util.VariableUtilImpl.get(VariableUtilImpl.java:263)
+	at lucee.runtime.PageContextImpl.get(PageContextImpl.java:1467)
+	at modules.user.fill_products_cfm$cf.call(/modules/user/fill_products.cfm:70)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at modules.control_and_full_cfm$cf.call(/modules/control_and_full.cfm:12)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at controller_cfm$cf.call(/controller.cfm:107)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"ERROR","http-nio-8888-exec-7","07/12/2018","15:12:40","",";Element at position [1] does not exist in list;lucee.runtime.exp.ExpressionException: Element at position [1] does not exist in list
+	at lucee.runtime.type.wrap.ListAsArray.getE(ListAsArray.java:110)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:275)
+	at lucee.runtime.type.wrap.ListAsArray.get(ListAsArray.java:280)
+	at lucee.runtime.type.util.ArraySupport.get(ArraySupport.java:327)
+	at lucee.runtime.util.VariableUtilImpl.get(VariableUtilImpl.java:263)
+	at lucee.runtime.PageContextImpl.get(PageContextImpl.java:1467)
+	at modules.user.fill_products_cfm$cf.call(/modules/user/fill_products.cfm:70)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at modules.control_and_full_cfm$cf.call(/modules/control_and_full.cfm:12)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.PageContextImpl.doInclude(PageContextImpl.java:817)
+	at controller_cfm$cf.call(/controller.cfm:107)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:908)
+	at lucee.runtime.PageContextImpl._doInclude(PageContextImpl.java:833)
+	at lucee.runtime.listener.ClassicAppListener._onRequest(ClassicAppListener.java:63)
+	at lucee.runtime.listener.MixedAppListener.onRequest(MixedAppListener.java:44)
+	at lucee.runtime.PageContextImpl.execute(PageContextImpl.java:2405)
+	at lucee.runtime.PageContextImpl._execute(PageContextImpl.java:2395)
+	at lucee.runtime.PageContextImpl.executeCFML(PageContextImpl.java:2363)
+	at lucee.runtime.engine.Request.exe(Request.java:44)
+	at lucee.runtime.engine.CFMLEngineImpl._service(CFMLEngineImpl.java:1091)
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(CFMLEngineImpl.java:1039)
+	at lucee.loader.engine.CFMLEngineWrapper.serviceCFML(CFMLEngineWrapper.java:102)
+	at lucee.loader.servlet.CFMLServlet.service(CFMLServlet.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at mod_cfml.core.invoke(core.java:152)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+"
+"INFO","127.0.0.1-startStop-1","07/14/2018","00:49:30","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/14/2018","00:49:30","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/14/2018","00:49:30","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","http-nio-8888-exec-1","07/14/2018","00:49:47","OSGi","add bundle:C:\lucee\tomcat\lucee-server\bundles\com.mysql.jdbc-5.1.38.jar"
+"INFO","http-nio-8888-exec-1","07/14/2018","00:49:47","OSGi","start bundle:com.mysql.jdbc:5.1.38"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [java.net.URLClassLoader@681a9515]"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","not found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [lucee.commons.io.res.util.ResourceClassLoader@5f665f9e]"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","looking for tools.jar"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","couldn't find tools.jar at: C:\lucee\jdk\jre\lib\tools.jar"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","tools.jar used:C:\lucee\jdk\lib\tools.jar"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","loaded VirtualMachine class:com.sun.tools.attach.VirtualMachine"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:05","Instrumentation","try to load agent (path:C:\lucee\tomcat\lucee-server\context\lucee-external-agent.jar)"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:06","Instrumentation","pid:1528"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:06","Instrumentation","found [lucee.runtime.instrumentation.ExternalAgent] in ClassLoader [sun.misc.Launcher$AppClassLoader@c387f44]"
+"INFO","http-nio-8888-exec-3","07/14/2018","00:50:06","Instrumentation","ExternalAgent does contain a Instrumentation instance"
+"INFO","127.0.0.1-startStop-1","07/15/2018","08:33:08","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/15/2018","08:33:08","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/15/2018","08:33:08","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/16/2018","09:01:56","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/16/2018","09:01:56","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/16/2018","09:01:56","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/17/2018","09:51:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/17/2018","09:51:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/17/2018","09:51:57","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/18/2018","09:27:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/18/2018","09:27:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/18/2018","09:27:53","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/21/2018","22:20:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/21/2018","22:20:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/21/2018","22:20:58","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"
+"INFO","127.0.0.1-startStop-1","07/22/2018","08:59:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-admin.lar"
+"INFO","127.0.0.1-startStop-1","07/22/2018","08:59:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-doc.lar"
+"INFO","127.0.0.1-startStop-1","07/22/2018","08:59:06","OSGi","add bundle:C:\Users\Manuel\Desktop\Back\Sitios\nginx\html\lucee\Projects\Bizglo\WEB-INF\lucee\context\lucee-context.lar"

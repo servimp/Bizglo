@@ -3,7 +3,6 @@
 <cfoutput>	
 <cfif catids[#times#] eq catlevels[#TIMES#]>
 		<cfif catids[#times#] eq products.ID_CATEGORY>
-			<cfset item = 1>
 			<cfinclude template="fill_products_table.cfm">
      	<cfelse>
      		<cfif catids[#stop#] not equal 0>
@@ -17,7 +16,6 @@
 	</cfif>	
 	<cfset catlevels[#TIMES#]= catids[#times#]>
 	<cfif catids[#times#] eq products.ID_CATEGORY><!---SECOND LEVEL---->
-		<cfset item = 1>
         <cfinclude template="fill_products_table.cfm">
     <cfelse>
     	<cfif catids[#stop#] not equal 0>
