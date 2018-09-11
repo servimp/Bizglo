@@ -1,14 +1,14 @@
 <cfscript>
-/*Array Creation for holding template info and settings*/	
+/*Array Creation for holding template info and settings*/
 stack = arraynew();
 stackp= arraynew();
 
 switch(url.view){
-	case "dash_staff":	
+	case "dash_staff":
 		stack[1] = 'modules/html_doc.cfm';
 		stack[2] = 'sidebar_central_1.cfm';
 		stack[3] = 'staff/fill_sidebar_admin.cfm';
-		stack[4] = 'empty'							   /*Because fill_sidebar_admin.cfm does not call files, but may call parameters.*/ 
+		stack[4] = 'empty'							   /*Because fill_sidebar_admin.cfm does not call files, but may call parameters.*/
 		stack[5] = 'twothird_third.cfm';
 		stack[6] = 'admin_view.cfm';
 		stack[7] = 'admin_right_section.cfm';
@@ -16,14 +16,14 @@ switch(url.view){
 		stackp[1][1] = 'w3-AMA0';
 		stackp[2][1]= '260px';													/*Sidebar width*/
 		stackp[2][2]= '260px';													/*Main section left margin*/
-		stackp[2][3]= 'w3-AZULPRO1';											/*Sidebar background color*/
+		stackp[2][3]= 'w3-AZULPRO1';										/*Sidebar background color*/
 		break;
 
-	case "dash_user":	
+	case "dash_user":
 		stack[1] = 'modules/html_doc.cfm';
 		stack[2] = 'sidebar_central_1.cfm';
 		stack[3] = 'user/fill_sidebar.cfm';
-        stack[4] = 'empty'		
+    stack[4] = 'empty'
 		stack[5] = 'twothird_third.cfm';
 		stack[6] = 'admin_view.cfm';
 		stack[7] = 'admin_right_section.cfm';
@@ -34,7 +34,7 @@ switch(url.view){
 		stackp[2][3]= 'w3-AZULPAR';
 		break;
 
-	case "staff_cat":	
+	case "staff_cat":
 	    stack[1] = 'modules/form.cfm';
 		stack[2] = 'twothird_third_fixed.cfm';
 		stack[3] = 'staff/fill_catview.cfm';
@@ -43,28 +43,28 @@ switch(url.view){
 		stackp[1][1] = 'form_cat';
 		break;
 
-	case "inventory_user":	
+	case "inventory_user":
 		stack[1] = 'modules/full_main.cfm';
 		stack[2] = 'user/fill_inventory.cfm';
 
 		stackp[1][1] = 'form_cat';
 		break;
 
-	case "products_user":	
+	case "products_user":
 		stack[1] = 'modules/control_and_full.cfm';
 		stack[2] = 'user/control_products.cfm';
 		stack[3] = 'empty';
 		stack[4] = 'user/fill_products.cfm';
 		break;
 
-	case "products_staff":	
+	case "products_staff":
 		stack[1] = 'modules/control_and_full.cfm';
 		stack[2] = 'staff/control_products_staff.cfm';
 		stack[3] = 'empty';
 		stack[4] = 'user/fill_products.cfm';
 		break;
 
-	case "fill_catview":	
+	case "fill_catview":
 		stack[1] = 'modules/staff/fill_catview.cfm';
 		break;
 
@@ -90,9 +90,9 @@ switch(url.view){
 
 	case "up_prostaff2":
 		stack[1] = 'modules/staff/up_prostaff2.cfm';
-		break;	
+		break;
 
-	case "features":	
+	case "features":
 	    stack[1] = 'modules/form.cfm';
 	    stack[2] = 'full_main.cfm';
 		stack[3] = 'staff/fill_features.cfm';

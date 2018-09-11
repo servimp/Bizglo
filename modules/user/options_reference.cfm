@@ -1,12 +1,12 @@
 <CFSTOREDPROC PROCEDURE="REPRESENTATIVE" DATASOURCE="bizglo">
   <cfprocparam type="in" cfsqltype="CF_SQL_NUMERIC" variable="ITEM_ID" value="#url.param1#">
   <cfprocresult name="REPRESENTATIVE">
-</CFSTOREDPROC> 
+</CFSTOREDPROC>
 
 <CFSTOREDPROC PROCEDURE="CONDITIONS" DATASOURCE="bizglo">
   <cfprocparam type="in" cfsqltype="CF_SQL_NUMERIC" variable="COND_ID" value="#url.param2#">
   <cfprocresult name="CONDITIONS">
-</CFSTOREDPROC> 
+</CFSTOREDPROC>
 
 <div class="w3-animate-opacity w3-panel w3-GRIS0"  style="padding-bottom: 6px;">
 <h4 style="margin-bottom: 8px; margin-top: 14px;"><span id="icon_options"><i class="fa fa-long-arrow-down" style="font-size: 17px;"></i> Please Select Options</h4></span>
@@ -17,7 +17,7 @@
 <cfoutput query="CONDITIONS" startrow=1>
   <option value="#conditions.ID#">#conditions.DESCRIPTION#</option>
 </cfoutput>
-</select> 
+</select>
 </p>
 <p>
 <select class="w3-select" name="option_colors" id="option_colors" required>

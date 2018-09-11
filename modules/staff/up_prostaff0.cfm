@@ -17,19 +17,22 @@
 </div>
 </div>
 
-<div id="items_reference">
+<div id="description">
+<!---cfinclude template = "./add_product/description.cfm"--->
 </div>
 
-<div id="options_reference">
+<div id="characteristics">
+<cfinclude template = "./add_product/characteristics.cfm">
 </div>
 
-<div id="identifiers">
+<div id="additional">
+<!---cfinclude template = "./add_product/characteristics2.cfm"--->
 </div>
 
-<div id="idconfirm">
+<div id="confirm">
+<!---cfinclude template = "./add_product/confirm.cfm"--->
 </div>
 
 
 </div>
-</form>	
-
+</form>

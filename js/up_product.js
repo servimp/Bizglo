@@ -17,7 +17,7 @@ else
 {if (cat == 0)
 {get_view("up_prostaff0", "subcats",0);}
 else
-{get_view("up_prostaff2", "subcats", cat);}} 
+{get_view("up_prostaff2", "subcats", cat);}}
 }
 
 function refreset ()
@@ -41,7 +41,6 @@ var show = document.getElementById('options_selected');
 show.style.display = "block";
 var show = document.getElementById('identifiers');
 show.style.display = "block";
-
 }
 
 function idsreset()
@@ -105,7 +104,7 @@ function custom_3()
 update_div('options_confirm', data);
 document.getElementById('icon_options').innerHTML = "<h4 style='margin-bottom: 8px;' class='w3-text-AZULPAR'><i class='fa fa-check' style='font-size: 17px;''></i> Options</h4>";
 var dataid = "<div class='w3-animate-opacity w3-panel w3-GRIS0' style='padding-bottom: 6px;'><h4 style='margin-bottom: 8px; margin-top: 14px;'><span id='icon_reference'><i class='fa fa-long-arrow-down' style='font-size: 17px;'></i></span> Please enter the IMEI identifier for each item</h4>";
- for (var i = 0; i < qty; i++) 
+ for (var i = 0; i < qty; i++)
  { var n = 1 + i;
     dataid = dataid + "<p><input class='w3-input w3-border w3-round' name='IMEI"+n+"' type='text' id='IMEI"+n+"' maxlength='15'  min='1' pattern='[0-9]{15}' placeholder='IMEI No. "+n+"' required='required'></p>";}
     dataid = dataid + "<p><input type='button' class='w3-button w3-AZULPAR w3-block' value='Enter Identifiers' onclick='validform(1)'></p></div>";
@@ -115,7 +114,7 @@ update_div('identifiers', dataid);
 function custom_4()
 {var qty = document.getElementById('qty').value;
 data = "<div class='w3-animate-opacity w3-panel w3-GRIS0 w3-text-AZULPAR' style='padding-bottom: 6px;'><h4 style='margin-bottom: 8px;' class='w3-text-AZULPAR'><i class='fa fa-check' style='font-size: 17px;''></i> Identifiers</h4><div class='w3-container'>";
-for (var i = 0; i < qty; i++) 
+for (var i = 0; i < qty; i++)
  {var n = 1 + i;
 var imei =  document.getElementById('IMEI'+n).value;
 data = data + "<span>IMEI No. "+n+": <b>"+imei+"</b></span><br>";}
@@ -127,22 +126,22 @@ update_div('idconfirm', data);
 
 function additems()
 {
-var qty = document.getElementById('qty').value; 
+var qty = document.getElementById('qty').value;
 alert (qty);
 var data = "";
 for (var i = 0; i < qty; i++)
 {var n = 1 + i;
 var imei =  document.getElementById('IMEI'+n).value;
 data = data + "," + imei;}
-data = data.substr(1); 
+data = data.substr(1);
 alert (data);
-var idrep = document.getElementById('item_id').value; 
+var idrep = document.getElementById('item_id').value;
 alert (idrep);
-var opt_conditions = document.getElementById('option_conditions').value; 
+var opt_conditions = document.getElementById('option_conditions').value;
 alert (opt_conditions);
-var opt_colors = document.getElementById('option_colors').value; 
+var opt_colors = document.getElementById('option_colors').value;
 alert (opt_colors);
-var details = document.getElementById('details').value; 
+var details = document.getElementById('details').value;
 alert (details);
 document.getElementById('up_product').innerHTML = "<div class='w3-display-container' style='height:500px; width:100%;'><img src='images/loading.gif' class='w3-display-middle'></div>";
 var url="queries/NEW_ITEMS_USER.cfm?";
@@ -152,6 +151,6 @@ var url="queries/NEW_ITEMS_USER.cfm?";
     url=url+"&qty="+qty;
     url=url+"&identifiers="+data;
     url=url+"&details="+details;
-    alert (url); 
+    alert (url);
     loadDoc(url, 'up_product');
 }
